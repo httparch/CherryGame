@@ -21,6 +21,6 @@ run these commands on terminal
 
     npm install phaser
 
-# run server
+# run localhost
 
     npm run dev
