@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cherry On Top</title>
+  </head>
+  <body>
+
+    <header>
+      <p></p>
+    </header>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+
+      <div id="gameStartDiv" class="gameUI">
+        <h1>Catch the Cherries for BINI <img src="/public/assets/cherry.png" alt=""></h1>
+        <p>Catch cherries for each member of Bini before the time runs out!</p>
+        <p>Don't catch the skulls! & Don't miss even 1 cherry!</p>
+        <p>Goodluck!</p>
+       <button id="gameStartBtn"><p>START!</p></button>
+      </div>
+      <div id="gameEndDiv" class="gameUI">
+        <h1>Game Over!</h1>
+        <h2>You <span id="gameWinLoseSpan"></span></h2>
+        <h2>Final Score: <span id="gameEndScoreSpan"></span></h2>
+        <br>
+        <p>Refresh the page to play again!</p>
+      </div>
+
+    </main>
+    <footer></footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
