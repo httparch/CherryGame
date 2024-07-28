@@ -1,8 +1,15 @@
+# Cherry On Top
+
+----
+
+![image](https://github.com/user-attachments/assets/cefa752e-9f6f-46ab-bd45-01f638bff49a)
+
+
 # Installation
 
 **Step 1 - Clone the project**
 
-create your folder
+        git clone https://github.com/httparch/CherryGame.git    
 
 **Step 2 - Run the following commands**
 
