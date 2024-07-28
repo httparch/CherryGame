@@ -1,4 +1,4 @@
-# Cherry On Top
+<p align="center">🍒 Cherry On Top 🍒<p>
 
 ----
 
