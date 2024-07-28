@@ -1,4 +1,4 @@
-<p align="center">🍒 Cherry On Top 🍒<p>
+# <h1 align="center">🍒 Cherry On Top 🍒<h1>
 
 ----
 
