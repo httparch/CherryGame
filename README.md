@@ -11,16 +11,6 @@
 
         git clone https://github.com/httparch/CherryGame.git    
 
-**Step 2 - Run the following commands**
-
-run these commands on terminal
-
-    npm create vite@latest
-
-    npm install
-
-    npm install phaser
-
 # run localhost
 
     npm run dev
