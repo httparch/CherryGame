@@ -1,36 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cherry On Top</title>
-  </head>
-  <body>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
 
     <header>
-      <p></p>
+        <h1>🍒 Cherry On Top 🍒</h1>
     </header>
+
     <main>
-      <canvas id="gameCanvas"></canvas>
+        <canvas id="gameCanvas" style="display: none;"></canvas>
 
-      <div id="gameStartDiv" class="gameUI">
-        <h1>Catch the Cherries for BINI <img src="/public/assets/cherry.png" alt=""></h1>
-        <p>Catch cherries for each member of Bini before the time runs out!</p>
-        <p>Don't catch the skulls! & Don't miss even 1 cherry!</p>
-        <p>Goodluck!</p>
-       <button id="gameStartBtn"><p>START!</p></button>
-      </div>
-      <div id="gameEndDiv" class="gameUI">
-        <h1>Game Over!</h1>
-        <h2>You <span id="gameWinLoseSpan"></span></h2>
-        <h2>Final Score: <span id="gameEndScoreSpan"></span></h2>
-        <br>
-        <p>Refresh the page to play again!</p>
-      </div>
+   
+        <div id="gameStartDiv" class="gameUI">
+            <h1>Catch the Cherries for BINI! 🍒</h1>
+            <img src="/assets/cherry.png" alt="Cherry Icon" class="game-icon">
+            <p>Catch cherries for each member of BINI before the time runs out!</p>
+            <p><strong>⚠️ Don't catch the skulls! & Don't miss even 1 cherry!</strong></p>
+            <p>🎮 Use the arrow keys to move left and right.</p>
+            <button id="gameStartBtn">🚀 Start Game</button>
+        </div>
 
+        
+        <div id="gameEndDiv" class="gameUI" style="display: none;">
+            <h1>Game Over! 🎮</h1>
+            <h2>You <span id="gameWinLoseSpan"></span>!</h2>
+            <h2>Final Score: <span id="gameEndScoreSpan"></span></h2>
+            <br>
+            <p>🔄 Refresh the page to play again!</p>
+        </div>
     </main>
-    <footer></footer>
+
+    <footer>
+        <p>&copy; 2025 Cherry On Top. All rights reserved.</p>
+    </footer>
+
     <script type="module" src="/main.js"></script>
-  </body>
+
+</body>
 </html>
